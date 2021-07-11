@@ -1,8 +1,53 @@
 # DBMS-Notes
-## Introduction
+## Introduction (:star: = IMP)
 ### What is Data?
 - **Data** is a collection of a distinct small unit of information. It can be used in a variety of forms like text, numbers, media, bytes, etc. and it can be stored in pieces of paper or electronic memory, etc.
 ### What is Database?
 - A __database__ is an organized collection of data, so that it can be easily accessed and managed. 
 - The main purpose of the database is to operate a large amount of information by storing, retrieving, and managing data.
 - There are many databases available like *MySQL, Sybase, Oracle, MongoDB, Informix, PostgreSQL, SQL Server*, etc.
+### What is DBMS?
+- A *database management system* is a system designed to allow you to query the data that is in the database and make modifications to the database.
+- *Database management system* is the software that is used to access and manage one or more databases that contain the actual data.
+### Why do we need DBMS?
+- DBMS can be used for:
+  - Creation of Database
+  - Retrival of information from the database
+  - Updating the database
+  - Managing the database
+- DBMS also provide following functionalities:
+  1. Processing query and object management
+  2. Controlling redundncy and inconsistency
+  3. Efficient memory management and indexing
+  4. Concurrency control and transaction management
+  5. Access control and ease in accessing data
+  6. Integrity constraints
+  7. Multiple User Interface
+  8. Data Scalability, Expandability and Flexibility
+  9. Security
+- [Read more..](https://www.geeksforgeeks.org/need-for-dbms/ "GFG Link")
+### ACID Property :star:
+- **Atomicity**: It can manage a set of operations as a single "unit", so either everything succeeds or everything is aborted and comes back to the previous state.
+- **Consistency**: Basically, things are only saved if they respect all kinds of requirements defined by the database administrator.
+- **Integrity**: You can have 10 people working on the same database simultaneously and the resulting state is exactly the one you expect if those 10 people worked on the database one by one.
+- **Durability**: Things are actually saved in a non-volatile memory (so not just in RAM).
+### DBMS v/s File System
+- | DBMS | File System |
+  | ---- | ----------- |
+  |Multi-user access | Does not support multi-user access|
+  |Designed to fulfill need of small and large business|Only limited to smaller Database|
+  |Remove redundancy and integrity|Redundancy and intergrity issues|
+  |Expensive. But in long term, total cost of ownership is cheaper|It's Cheaper|
+  |Easy to implement complicated transactions|No support for complcated transaction|
+  |Provides good protection|Difficult to provide protection|
+### Functions of DBA
+- DBA stands for **Database Administrator**. Functions include:
+  - **Schema Definiton**:  The DBA creates the original database schema by executing a set of data deﬁnition statements in the DDL.
+  - **Storage structure and access-method deﬁnition.**
+  - **Schema and physical-organization modiﬁcation**: The DBA carries out changes to the schema and physical organization to reﬂect the changing needs of the organization, or to alter the physical organization to improve performance.
+  - **Granting of authorization for data access**: By granting different types of authorization, the database administrator can regulate which parts of the database various users can access. The authorization information is kept in a special system structure that the database system consults when ever someone attempts to access the data in the system.
+  - **Routine Maintainance**:
+    - *Periodically backing up the database*, either onto tapes or onto remote servers, to prevent loss of data in case of disasters such as ﬂooding.
+    - *Ensuring that enough free disk space is available* for normal operations, and upgrading disk space as required.
+    - *Monitoring jobs running on the database* and ensuring that performance is not degraded by very expensive tasks submitted by some users. 
+  
