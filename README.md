@@ -1,3 +1,4 @@
+<img src="https://lh3.googleusercontent.com/proxy/c_hq9e3cXbGSfPsb6G0m-byetYqNQ2IK4TGTMIwZMorfBM_PsnVwWf31z_ecZ6t8iW3SiLbGwdl08b1_T6Ow-q-Ef6E1n54h3wNtcKmJUCxd-_z0K2poreK28t4oKN5xYo8" alt="alt text" width="30" height="30"></img>
 # DBMS-Notes
 ## Introduction (:star: = IMP)
 ### What is Data?
@@ -50,4 +51,20 @@
     - *Periodically backing up the database*, either onto tapes or onto remote servers, to prevent loss of data in case of disasters such as ﬂooding.
     - *Ensuring that enough free disk space is available* for normal operations, and upgrading disk space as required.
     - *Monitoring jobs running on the database* and ensuring that performance is not degraded by very expensive tasks submitted by some users. 
+### 2-tier and 3-tier architecture
+<img src='https://i2.wp.com/3.bp.blogspot.com/-5IYf6nhD5L4/VwQar9OpuQI/AAAAAAAAEbg/xXlzllw0Gfwjeud20Gjv7rzWOrnU7JM1A/s1600/two%2Btier%2Band%2Bthree%2Btier%2Barchitecture%2Bdbms%2Btanmayonrun.PNG' width='500' height='200'></img>
+  |2-tier|3-tier|
+  |------|------|
+  |Its Client-Server architecture|Its a web based application|
+  |The application logic is either buried inside the user interface on the client or within the database on the server (or both).|The application logic or process resides in the middle-tier, it is separated from the data and the user interface.|
+  |Consists of two layer: Client tier and database(data tier)|Consists of three layer: Client, Business and Data|
+  |Easy to build and maintain|Complex to build and maintain|
+  |Runs slower|Runs faster|
+  | Less secured as client can communicate with database directly.| Secured as client is not allowed to communicate with database directly.|
+  |Performance loss when users increases|Gives more performance|
+  |Example: When you go to bank to open an account./When you go to the station to book tickets|Example: When you use the website to book your tickets|
   
+### Database Languages (DDL, DQL, DML, DCL and TCL)
+- **SQL(Structured Query Language)**  is the database language by the use of which we can perform certain operations on the existing database and also we can use this language to create a database. SQL uses certain commands like Create, Drop, Insert, etc. to carry out the required tasks.
+- These SQL commands are mainly divided into following categories:
+  1. DDL
