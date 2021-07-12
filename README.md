@@ -1,4 +1,3 @@
-<img src="https://lh3.googleusercontent.com/proxy/c_hq9e3cXbGSfPsb6G0m-byetYqNQ2IK4TGTMIwZMorfBM_PsnVwWf31z_ecZ6t8iW3SiLbGwdl08b1_T6Ow-q-Ef6E1n54h3wNtcKmJUCxd-_z0K2poreK28t4oKN5xYo8" alt="alt text" width="30" height="30"></img>
 # DBMS-Notes
 ## Introduction (:star: = IMP)
 ### What is Data?
