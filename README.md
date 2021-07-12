@@ -95,4 +95,7 @@
     - **ROLLBACK** : rollbacks a transaction in case of any error occurs.
     - **SAVEPOINT** : sets a savepoint in transaction.
     - **SET TRANSACTION** : specifiy characteristics of the transaction.
-
+### Instance, Schema and Sub-Schema:
+- Information/data in database at particular moment is known as ***instance***, physical arrangement of data as it appears in database can be defined as ***schema***, and the logical view of data as it appears to the application can be called as ***sub-schema***.
+### Data Models
+- Read [here](https://afteracademy.com/blog/what-is-data-model-in-dbms-and-what-are-its-types)
