@@ -66,5 +66,33 @@
 ### Database Languages (DDL, DQL, DML, DCL and TCL)
 - **SQL(Structured Query Language)**  is the database language by the use of which we can perform certain operations on the existing database and also we can use this language to create a database. SQL uses certain commands like Create, Drop, Insert, etc. to carry out the required tasks.
 - These SQL commands are mainly divided into following categories:
+
   1. **DDL(Data Definition Language)** : It  consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
-    -  
+ 
+    -  **CREATE** :  is used to create the database or its objects (like table, index, function and views).
+    -  **DROP** : is used to delete the objects from database.
+    -  **ALTER** : is used to alter the structure of database.
+    -  **TRUNCATE** : is used to remove all records from a table, including all spaces allocated for the records are removed.
+    -  **COMMENT** : is used to add comments to the data directory.
+    -  **RENAME** : is used to rename an object existing in the database.
+
+  2. **DQL(Data Query Language)** used for performing queries on the data within schema objects. The purpose of the DQL Command is to get some schema relation based on the query passed to it.
+    - **SELECT** : is used to retrive data from database.
+
+  3. **DML(Data Manipulation Language)** : Commands used to manipulate the data present in databases belongs to DML and this includes most of the SQL statements.
+    - **INSERT** : is used to insert data into a table.
+    - **UPDATE** : is used to update existing data within a table.
+    - **DELETE** : is used to delete records from a database table.
+
+
+  4. **DCL(Data Control Language)** : mainly deal with the rights, permissions and other controls of the database system. 
+    - **GRANT** : gives users access privileges to the database.
+    - **REVOKE** : withdraw user’s access privileges given by using the GRANT command.
+
+
+  5. **TCL(Transaction Control Language)** : deals with transaction within database.
+    - **COMMIT** : commits a transaction.
+    - **ROLLBACK** : rollbacks a transaction in case of any error occurs.
+    - **SAVEPOINT** : sets a savepoint in transaction.
+    - **SET TRANSACTION** : specifiy characteristics of the transaction.
+
