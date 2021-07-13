@@ -99,3 +99,20 @@
 - Information/data in database at particular moment is known as ***instance***, physical arrangement of data as it appears in database can be defined as ***schema***, and the logical view of data as it appears to the application can be called as ***sub-schema***.
 ### Data Models
 - Read [here](https://afteracademy.com/blog/what-is-data-model-in-dbms-and-what-are-its-types)
+### Data Abstraction
+- Data Abstraction refers to the process of hiding irrelevant details from the user.
+- **Example**: If we want to access any mail from our Gmail then we don't know where that data is physically stored i.e is the data present in India or USA or what data model has been used to store that data? We are not concerned about these things. We are only concerned with our email. So, information like these i.e. location of data and data models are irrelevant to us and in data abstraction, we do this only. 
+- We hide the unnecessary data from the user and this process of hiding unwanted data is called Data Abstraction.
+
+### 3 Levels of Data Abstraction
+- There are mainly *three* levels of data abstraction and we divide it into three levels in order to achieve **Data Independence**. **Data Independence** means users and data should not directly interact with each other. The user should be at a different level and the data should be present at some other level. By doing so, Data Independence can be achieved.
+1. **View Level or Externam Schema**
+- This level tells the application about how the data should be shown to the user.
+- *Example*: As a student, we can view our marks, attendance, fee structure, etc. But the faculty of the university will have a different view. He will have options like salary, edit marks of a student, enter attendance of the students, etc. So, both the student and the faculty have a different view. 
+- So, different users will have a different view according to the authorization they have.
+2. **Conceptual level or Logical level**
+- This level tells how the data is actually stored and structured. We have different data models by which we can store the data.
+- Though the data is stored in the database but the structure of the tables like the student table, teacher table, books table, etc are defined here in the conceptual level or logical level. Also, how the tables are related to each other are defined here. Overall, we can say that we are creating a blueprint of the data at the conceptual level.
+3. **Physical level or Internal schema**
+- Physical level tells us that where the data is actually stored i.e. it tells the actual location of the data that is being stored by the user.
+- The Database Administrators(DBA) decide that which data should be kept at which particular disk drive, how the data has to be fragmented, where it has to be stored etc. They decide if the data has to be centralized or distributed. Though we see the data in the form of tables at view level the data here is actually stored in the form of files only.
