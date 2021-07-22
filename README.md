@@ -116,3 +116,19 @@
 3. **Physical level or Internal schema**
 - Physical level tells us that where the data is actually stored i.e. it tells the actual location of the data that is being stored by the user.
 - The Database Administrators(DBA) decide that which data should be kept at which particular disk drive, how the data has to be fragmented, where it has to be stored etc. They decide if the data has to be centralized or distributed. Though we see the data in the form of tables at view level the data here is actually stored in the form of files only.
+
+### DBMS Keys
+- A DBMS key is an attribute or a set of attributes which help you uniquely identify a record or a row of data in a relation(table).
+- We can force indentity of data and ensure data integrity is maintained.
+- They establish relationship between tables and helps identifying relationship between tables.
+1. **Super Key**
+- A attribute or a set of attributes that can be used to identify a row of data in a table.
+2. **Candidate Key**
+- Minimal subset of Super Key.
+- If any proper subset of Super key is a super key than that key can not be a candidate key.
+3. **Primary Key**
+- The candidate key choosen to uniquely identify each row of data in a table.
+4. **Foreign Key**
+- It is an attribute in a table which is used to define its relationship with another table.
+5. **Composite Key**
+- Any key with more than one attribute is called composite key.
